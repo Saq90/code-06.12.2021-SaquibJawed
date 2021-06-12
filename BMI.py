@@ -60,7 +60,6 @@ l5.grid(row = 5, column = 2)
 l5 = Label(window,text = "40 and above")
 l5.grid(row = 6, column = 2)
 
-
 l6 = Label(window,text = "BMI Health risk",bg="steel blue")
 l6.grid(row = 0, column = 3)
 
@@ -81,8 +80,6 @@ l6.grid(row = 5, column = 3)
 
 l6 = Label(window,text = "Very high risk")
 l6.grid(row = 6, column = 3)
-
-
 
 myText = StringVar()
 e1 = Entry(window,textvariable= myText)
